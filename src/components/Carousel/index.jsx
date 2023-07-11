@@ -1,8 +1,10 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import BearCarousel from 'bear-react-carousel';
 import Image from 'next/image';
+import dynamic from 'next/dynamic';
+const BearCarousel = dynamic(
+    () => import("bear-react-carousel").then((mod) => mod), {ssr: false}
+);
 
 import SRS from '@/assets/SRS.png';
 import SRS1 from '@/assets/SRS1.png';
@@ -30,26 +32,7 @@ const images = [
     {id: 11, image: Satori1},
 ];
 
-function useWindowSize() {
-    const [windowSize, setWindowSize] = useState({
-        width: undefined,
-    });
-    useEffect(() => {
-        function handleResize() {
-            setWindowSize({
-                width: window.innerWidth,
-            });
-        }
-        window.addEventListener("resize", handleResize);
-        handleResize();
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
-    return windowSize;
-}
-
 export const CustomCarousel = () => {
-    const size = useWindowSize();
-    const isMobile = size.width < 768;
     const bearSlideItemData = images.map(row => {
         return {
             key: row.id,
@@ -62,7 +45,7 @@ export const CustomCarousel = () => {
 
     return <BearCarousel
         data={bearSlideItemData}
-        slidesPerView={isMobile ? 1 : 2}
+        slidesPerView={1}
         spaceBetween={20}
         isEnableNavButton
         isEnableAutoPlay
