@@ -37,9 +37,7 @@ export const CustomCarousel = () => {
         return {
             key: row.id,
             children:
-                <div style={{ height: '100%', borderRadius: 8 }}>
-                    <Image src={row.image} alt='image' style={{ borderRadius: 10 }}/>
-                </div>
+                <Image src={row.image} alt='image' style={{ borderRadius: 10 }} />
         };
     });
 
