@@ -104,6 +104,15 @@ export default function Home() {
 
             <div className='flex flex-col gap-4 md:px-8 md:gap-8'>
                 <span className='font-semibold text-xl text-neutral-focus md:text-3xl'>
+                    Skill detail
+                </span>
+                <div className='md:text-xl md:flex md:justify-between'>
+                    Nearly 2 years of experience in React development, proficient in the core concepts, principles, and practical application of React. Capable of independently architecting SPA (Single Page Application) technology stack. Familiar with popular community packages such as Redux, Material UI, Ant Design, etc. Experienced in SEO and Next.js development.
+                </div>
+            </div>
+
+            <div className='flex flex-col gap-4 md:px-8 md:gap-8'>
+                <span className='font-semibold text-xl text-neutral-focus md:text-3xl'>
                     Awards
                 </span>
                 <div className='md:text-xl md:flex md:justify-between'>
