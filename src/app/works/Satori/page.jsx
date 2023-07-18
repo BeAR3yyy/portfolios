@@ -4,6 +4,16 @@ import Link from 'next/link';
 import Badge from '@/components/Badge';
 
 import Homepage from '@/assets/Satori/homepage.png';
+import Homepage_Open from '@/assets/Satori/homepage_open.png';
+import Login from '@/assets/Satori/login.png';
+import Image1 from '@/assets/Satori/image1.png';
+import Image2 from '@/assets/Satori/image2.png';
+import Image3 from '@/assets/Satori/image3.png';
+import Image4 from '@/assets/Satori/image4.png';
+import Image5 from '@/assets/Satori/image5.png';
+import Image6 from '@/assets/Satori/image6.png';
+import Image7 from '@/assets/Satori/image7.png';
+import Image8 from '@/assets/Satori/image8.png';
 
 export default function Satori() {
     return (
@@ -67,6 +77,56 @@ export default function Satori() {
                         <Image
                             className='w-full md:max-w-xl h-fit rounded-xl shadow-sm'
                             src={Homepage}
+                            alt={'Image'}
+                        />
+                        <Image
+                            className='w-full md:max-w-xl h-fit rounded-xl shadow-sm'
+                            src={Homepage_Open}
+                            alt={'Image'}
+                        />
+                        <Image
+                            className='w-full md:max-w-xl h-fit rounded-xl shadow-sm'
+                            src={Login}
+                            alt={'Image'}
+                        />
+                        <Image
+                            className='w-full md:max-w-xl h-fit rounded-xl shadow-sm'
+                            src={Image1}
+                            alt={'Image'}
+                        />
+                        <Image
+                            className='w-full md:max-w-xl h-fit rounded-xl shadow-sm'
+                            src={Image2}
+                            alt={'Image'}
+                        />
+                        <Image
+                            className='w-full md:max-w-xl h-fit rounded-xl shadow-sm'
+                            src={Image3}
+                            alt={'Image'}
+                        />
+                        <Image
+                            className='w-full md:max-w-xl h-fit rounded-xl shadow-sm'
+                            src={Image4}
+                            alt={'Image'}
+                        />
+                        <Image
+                            className='w-full md:max-w-xl h-fit rounded-xl shadow-sm'
+                            src={Image5}
+                            alt={'Image'}
+                        />
+                        <Image
+                            className='w-full md:max-w-xl h-fit rounded-xl shadow-sm'
+                            src={Image6}
+                            alt={'Image'}
+                        />
+                        <Image
+                            className='w-full md:max-w-xl h-fit rounded-xl shadow-sm'
+                            src={Image7}
+                            alt={'Image'}
+                        />
+                        <Image
+                            className='w-full md:max-w-xl h-fit rounded-xl shadow-sm'
+                            src={Image8}
                             alt={'Image'}
                         />
                     </div>
