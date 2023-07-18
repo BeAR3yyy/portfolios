@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div className='flex flex-col px-8 py-16 gap-16 min-h-[100vh]'>
             <div className='flex flex-col gap-4 md:px-8 md:gap-8'>
-                <span className='font-semibold text-xl text-primary-focus md:text-3xl'>
+                <span className='font-semibold text-xl text-neutral-focus md:text-3xl'>
                     Name
                 </span>
                 <div className='md:text-xl md:flex md:justify-between'>
@@ -16,7 +16,7 @@ export default function Home() {
             </div>
 
             <div className='flex flex-col gap-4 md:px-8 md:gap-8'>
-                <span className='font-semibold text-xl text-primary-focus md:text-3xl'>
+                <span className='font-semibold text-xl text-neutral-focus md:text-3xl'>
                     Location
                 </span>
                 <div className='md:text-xl md:flex md:justify-between'>
@@ -25,7 +25,7 @@ export default function Home() {
             </div>
 
             <div className='flex flex-col gap-4 md:px-8 md:gap-8'>
-                <span className='font-semibold text-xl text-primary-focus md:text-3xl'>
+                <span className='font-semibold text-xl text-neutral-focus md:text-3xl'>
                     Education
                 </span>
                 <div className='md:text-xl md:flex md:justify-between'>
@@ -38,7 +38,7 @@ export default function Home() {
             </div>
 
             <div className='flex flex-col gap-4 md:px-8 md:gap-8'>
-                <span className='font-semibold text-xl text-primary-focus md:text-3xl'>
+                <span className='font-semibold text-xl text-neutral-focus md:text-3xl'>
                     Work Experience
                 </span>
                 <div className='md:text-xl md:flex md:justify-between'>
@@ -67,7 +67,7 @@ export default function Home() {
             </div>
 
             <div className='flex flex-col gap-4 md:px-8 md:gap-8'>
-                <span className='font-semibold text-xl text-primary-focus md:text-3xl'>
+                <span className='font-semibold text-xl text-neutral-focus md:text-3xl'>
                     Professional Skill Set
                 </span>
                 <div className='flex md:text-xl items-center'>
@@ -103,7 +103,7 @@ export default function Home() {
             </div>
 
             <div className='flex flex-col gap-4 md:px-8 md:gap-8'>
-                <span className='font-semibold text-xl text-primary-focus md:text-3xl'>
+                <span className='font-semibold text-xl text-neutral-focus md:text-3xl'>
                     Awards
                 </span>
                 <div className='md:text-xl md:flex md:justify-between'>

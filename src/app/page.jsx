@@ -30,15 +30,15 @@ export default function Home() {
     ];
 
     return (
-        <div className='flex flex-col px-8 py-16 gap-16 items-center justify-center'>
-            <div className='flex flex-col-reverse gap-16 h-[calc(100vh-128px)] md:items-center md:flex-row md:px-16 md:max-w-7xl'>
-                <div className='flex flex-col flex-1 gap-8 w-full'>
+        <div className='flex flex-col px-8 py-16 gap-16 items-center justify-between'>
+            <div className='flex flex-col-reverse gap-32 h-[calc(100vh-128px)] md:items-center md:flex-row md:px-16 md:max-w-7xl md:justify-between'>
+                <div className='flex flex-col flex-1 gap-8 '>
                     <p className='text-2xl md:text-4xl'>
                         Hi, I'm <span className='text-neutral-focus font-semibold'>Eddy</span> <span className='wave'>👋🏻</span>
                     </p>
                     <MyTypewriter contents={TYPEWRITER_CONTENTS} />
                 </div>
-                <div className='flex justify-center'>
+                <div className='flex justify-center hover:animate-spin-slow'>
                     <Image
                         className='rounded-full w-64 h-64'
                         src={ProfileIcon}
@@ -78,7 +78,7 @@ export default function Home() {
                 <div className="w-full mt-8">
                     <CustomCarousel />
                 </div>
-                <Link href={'/project'} className='self-center w-48 md:w-64'>
+                <Link href={'/works'} className='self-center w-48 md:w-64'>
                     <button className="btn bg-accent-focus text-base-100 border-0 w-48 md:w-64">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
                         See more

@@ -53,7 +53,7 @@ export default function Navbar() {
                 <ul className="menu menu-horizontal px-2 gap-2">
                     <MenuItem icon={<MdHome />} title='Home' href='/' pathname={pathname} />
                     <MenuItem icon={<MdPerson />} title='About' href='/about' pathname={pathname} />
-                    <MenuItem icon={<MdWork />} title='Project' href='/project' pathname={pathname} />
+                    <MenuItem icon={<MdWork />} title='Works' href='/works' pathname={pathname} />
                 </ul>
             </div>
             <div className="navbar-end flex md:hidden dropdown dropdown-bottom">
@@ -63,7 +63,7 @@ export default function Navbar() {
                 <ul className="menu menu-sm dropdown-content mt-4 z-[1] p-2 gap-2 shadow-lg rounded-box w-52 bg-base-100/70" tabIndex={0}>
                     <DropdownItem icon={<MdHome />} title={'Home'} href='/' pathname={pathname} />
                     <DropdownItem icon={<MdPerson />} title={'About'} href='/about' pathname={pathname} />
-                    <DropdownItem icon={<MdWork />} title={'Project'} href='/project' pathname={pathname} />
+                    <DropdownItem icon={<MdWork />} title={'Works'} href='/works' pathname={pathname} />
                 </ul>
             </div>
         </div>
